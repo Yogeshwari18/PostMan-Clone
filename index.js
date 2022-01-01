@@ -95,7 +95,7 @@ else {
         })
         .then(response=> response.text())
         .then((text) =>{
-            // document.getElementById('responseJsonText').value = text;
+            //document.getElementById('responseJsonText').value = text;
             document.getElementById('responsePrism').innerHTML= 'text';
             Prism.highlightAll();
         });
